@@ -1,0 +1,22 @@
+{
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.aleph": true,
+    ".history": true,
+    ".prettierignore": true
+  },
+  "deno.enable": true,
+  "deno.unstable": true,
+  "deno.importMap": "./import_map.json",
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#fff",
+    "titleBar.inactiveForeground": "#ffffffCC",
+    "titleBar.activeBackground": "#e84118",
+    "titleBar.inactiveBackground": "#e84118CC",
+    "statusBar.background": "#e84118"
+  }
+}
